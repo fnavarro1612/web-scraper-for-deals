@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from email.message import EmailMessage
 
 def site_data():
-    """Return the relevant data form the website."""
+    """Return the relevant data from the website."""
     headers = {'User-Agent': 'Mozilla/5.0 (Linux; Android 5.1.1; SM-G928X Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'}
 
     web_data = []
